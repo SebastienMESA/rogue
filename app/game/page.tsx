@@ -18,9 +18,9 @@ export default function GamePage() {
           viewBox="0 0 24 24"
           fill="none"
           stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           className="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign text-yellow-500 inline-block mr-1"
         >
           <circle cx="12" cy="12" r="10" />

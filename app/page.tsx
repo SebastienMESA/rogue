@@ -14,7 +14,7 @@ export default function Home() {
   const handleStart = () => {
     setPlayerCount(count);
     startGame();
-    router.push("/game");
+    router.push("/setup");
   };
 
   return (
