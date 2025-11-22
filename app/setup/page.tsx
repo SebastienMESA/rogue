@@ -35,7 +35,8 @@ export default function SetupPage() {
         <h2 className="font-semibold">Noms des joueurs</h2>
         <div className="space-y-2">
           {Array.from({ length: playerCount }).map((_, i) => {
-            const p = players[i];
+            // players may be uninitialized during prerender/build; provide safe defaults
+            const p = players[i] ?? { id: `player-${i}`, name: "" };
 
             return (
               <input
